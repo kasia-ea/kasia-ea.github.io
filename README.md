@@ -8,5 +8,5 @@ Here is the topic of my Clavier at MSX.org forums: <https://www.msx.org/forum/ms
 
 # Where can you listen to my music?  
 Well, first of all here: <https://www.youtube.com/@KasiaPenta>  
-I have released an album at various streaming services, like Spotify: <https://open.spotify.com/album/3jhmexhIWxa3FisUJleJO9>
-Either way, you can download MP3s, if you feel so (Labels and streaming services are not going to pay money, lol): <https://github.com/kasia-ea/kasia-ea.github.io/tree/main/TUL%20Forschung%201>
+I have released an album at various streaming services, like Spotify: <https://open.spotify.com/album/3jhmexhIWxa3FisUJleJO9>  
+Either way, you can download MP3s, if you feel so (Labels and streaming services are not going to pay money, lol): <https://github.com/kasia-ea/kasia-ea.github.io/tree/main/TUL%20Forschung%201>  
