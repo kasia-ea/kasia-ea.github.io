@@ -1,3 +1,4 @@
+# Inroduction
 Hello! I am Katarzyna Motyl, aka Kasia Penta (for artistic purposes).
 I write music, and I write music software to some kind as well.
 
@@ -5,6 +6,7 @@ I write music, and I write music software to some kind as well.
 You may try my Microtonal clavier online here: <https://webmsx.org/?DISK=https://github.com/kasia-ea/kasia-ea.github.io/raw/main/Clavier_1.2.4.dsk>  
 Either way you can download floopy image from here: <https://github.com/kasia-ea/kasia-ea.github.io/blob/main/Clavier_1.2.4.dsk>  
 Here is the topic of my Clavier at MSX.org forums: <https://www.msx.org/forum/msx-talk/graphics-and-music/microtonal-clavier>
+If you have problems with installing Apple ][ emulator KEGS for newer versions of Android, you may try to follow my steps: <https://kasia-ea.github.io/KEGS_install>
 
 # Where can you listen to my music?  
 Well, first of all here: <https://www.youtube.com/@KasiaPenta>  
