@@ -1,4 +1,4 @@
-# Inroduction
+# Introduction
 Hello! I am Katarzyna Motyl, aka Kasia Penta (for artistic purposes).
 I write music, and I write music software to some kind as well.
 
