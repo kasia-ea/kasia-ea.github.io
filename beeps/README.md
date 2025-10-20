@@ -1,5 +1,24 @@
 # Beeps
 
+## Apple
+| Name | WAV | MP3 | Comment |
+| ---- | --- | --- | ------- |
+| Apple II Startup | [WAV](wav/StartupAppleII.wav) | [MP3](mp3/StartupAppleII.mp3) | From https://froods.ca/~dschaub/sound.html |
+| Apple //c Startup | [WAV](wav/StartupAppleIIc.wav) | [MP3](mp3/StartupAppleIIc.mp3) | From https://froods.ca/~dschaub/sound.html |
+| Apple IIGS Startup | [WAV](wav/StartupAppleIIgs.wav) | [MP3](mp3/StartupAppleIIgs.mp3) | From https://froods.ca/~dschaub/sound.html |
+| Macintosh (Classic) Startup | [WAV](wav/StartupMacI.wav) | [MP3](mp3/StartupMacI.mp3) | From https://froods.ca/~dschaub/sound.html |
+| Macintosh II Startup | [WAV](wav/StartupMacII.wav) | [MP3](mp3/StartupMacII.mp3) | From https://froods.ca/~dschaub/sound.html |
+| Macintosh LC Startup | [WAV](wav/StartupMacLC.wav) | [MP3](mp3/StartupMacLC.mp3) | From https://froods.ca/~dschaub/sound.html |
+| Macintosh Quadra Startup | [WAV](wav/StartupMacQuadra.wav) | [MP3](mp3/StartupMacQuadra.mp3) | From https://froods.ca/~dschaub/sound.html |
+| Macintosh Quadra AV Startup | [WAV](wav/StartupMacQuadraAV.wav) | [MP3](mp3/StartupMacQuadraAV.mp3) | From https://froods.ca/~dschaub/sound.html |
+| Power Macintosh Startup | [WAV](wav/StartupPowerMac.wav) | [MP3](mp3/StartupPowerMac.mp3) | From https://froods.ca/~dschaub/sound.html |
+| Power Macintosh 5300/5400 (and Upgrade Card) Startup | [WAV](wav/StartupPowerMacCard.wav) | [MP3](mp3/StartupPowerMacCard.mp3) | From https://froods.ca/~dschaub/sound.html |
+| Power Macintosh (PCI) Startup | [WAV](wav/StartupPowerMacPCI.wav) | [MP3](mp3/StartupPowerMacPCI.mp3) | From https://froods.ca/~dschaub/sound.html |
+| Twentieth Anniversary Macintosh Startup | [WAV](wav/StartupTwentiethAnniversaryMac.wav) | [MP3](mp3/StartupTwentiethAnniversaryMac.mp3) | From https://froods.ca/~dschaub/sound.html |
+| Pre T2 Intel Macs Startup | [WAV](wav/StartupIntelPreT2Mac.wav) | [MP3](mp3/StartupIntelPreT2Mac.mp3) | From https://froods.ca/~dschaub/sound.html |
+| T2 Intel Macs Startup | [WAV](wav/StartupIntelT2Mac.wav) | [MP3](mp3/StartupIntelT2Mac.mp3) | From https://froods.ca/~dschaub/sound.html |
+| eMate 300 Startup | [WAV](wav/StartupEMate300.wav) | [MP3](mp3/StartupEMate300.mp3) | From https://froods.ca/~dschaub/sound.html |
+
 ## Commodore
 
 | Name | WAV | MP3 | Comment |
