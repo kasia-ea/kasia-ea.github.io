@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>French Test</h1>
+
+<p>Click the button to start the test, fill nothing to end the test</p>
+
+<button onclick="myFunction()">Start</button>
+
+<p id="demo"></p>
+
+<script>
+function getRandomInt(max) {
+  return Math.floor(Math.random() * max);
+} //getRandomInt(3) returns 0, 1 or 2
+
+let prononces = ["je", "tu", "il", "elle", "nous", "vous", "ils", "elles"];
+let verbes = [
+  ["faire",      "fais",      "fais",      "fait",     "fait",     "faisons",    "faites",    "font",        "font"       ],
+  ["boire",      "bois",      "bois",      "boit",     "boit",     "buvons",     "buvez",     "boivent",     "boivent"    ],
+  ["manger",     "mange",     "manges",    "mange",    "mange",    "mangeons",   "mangez",    "mangent",     "mangent"    ],
+  ["pouvoir",    "peux",      "peux",      "peut",     "peut",     "pouvons",    "pouvez",    "peuvent",     "peuvent"    ],
+  ["devoir",     "dois",      "dois",      "doit",     "doit",     "devons",     "devez",     "doivent",     "doivent"    ],
+  ["vouloir",    "veux",      "veux",      "veut",     "veut",     "voulons",    "voulez",    "veulent",     "veulent"    ],
+  ["prendre",    "prends",    "prends",    "prend",    "prend",    "prenons",    "prenez",    "prennent",    "prennent"   ],
+  ["apprendre",  "apprends",  "apprends",  "apprend",  "apprend",  "apprenons",  "apprenez",  "apprennent",  "apprennent" ],
+  ["comprendre", "comprends", "comprends", "comprend", "comprend", "comprenons", "comprenez", "comprennent", "comprennent"]
+  ];
+
+function myFunction() {
+  let cycle = false;
+  while (cycle != true) {
+    let prononce_courant_index = getRandomInt(8);
+    let verbe_courant_index = getRandomInt(9);
+    let prononce_courant = prononce[pronoce_courant_index];
+    let infinitif_courant = verbes[verbe_courant_index[0]];
+    let verbe_courant = verbes[verbe_courant_index[prononce_courant_index+1]];
+    
+    let reponse = prompt("Enter the form corresponding to the pronounce and given infinitive \n" +
+                         "Type nothing to end the test \n\n" +
+                         prononce_courant + " " + infinitif_courant + "?", null);
+    if (reponse != null) {
+      if (reponse == verbe_courant) {
+        alert("Right! +");
+      } else {
+        alert("Wrong. -");
+      }
+    } else {
+      alert("Ending.");
+      cycle = true;
+  }
+}
+</script>
+
+</body>
+</html>
