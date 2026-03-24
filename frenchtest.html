@@ -34,13 +34,13 @@ function myFunction() {
     let prononce_courant_index = getRandomInt(8);
     let verbe_courant_index = getRandomInt(9);
     let prononce_courant = prononces[prononce_courant_index];
-    let infinitif_courant = verbes[verbe_courant_index[0]];
-    let verbe_courant = verbes[verbe_courant_index[prononce_courant_index+1]];
+    let infinitif_courant = verbes[verbe_courant_index][0];
+    let verbe_courant = verbes[verbe_courant_index][prononce_courant_index+1];
     
     let reponse = prompt("Enter the form corresponding to the pronounce and given infinitive \n" +
                          "Type nothing to end the test \n\n" +
-                         prononce_courant + " " + infinitif_courant + "?", null);
-    if (reponse != null) {
+                         prononce_courant + " " + infinitif_courant + "?", undefined);
+    if (reponse != undefined) {
       if (reponse == verbe_courant) {
         alert("Right! +");
       } else {
