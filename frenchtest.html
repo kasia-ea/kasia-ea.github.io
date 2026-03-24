@@ -40,7 +40,7 @@ function myFunction() {
     let reponse = prompt("Enter the form corresponding to the pronounce and given infinitive \n" +
                          "Type nothing to end the test \n\n" +
                          prononce_courant + " " + infinitif_courant + "?", undefined);
-    if (reponse != undefined) {
+    if ((reponse != undefined) || (reponse != "")) {
       if (reponse == verbe_courant) {
         alert("Right! +");
       } else {
