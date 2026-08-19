@@ -63,11 +63,11 @@ function testDeVerbes() {
     let verbe_courant_index = getRandomInt(23);
     let pronom_courant = pronoms[pronom_courant_index];
     let infinitif_courant = verbes[verbe_courant_index][0];
-    let verbe_courant = verbes[verbe_courant_index][prononce_courant_index+1];
+    let verbe_courant = verbes[verbe_courant_index][pronom_courant_index+1];
     
     let reponse = prompt("Enter the form corresponding to the pronounce and given infinitive \n" +
                          "Type nothing to end the test \n\n" +
-                         prononce_courant + " " + infinitif_courant + "?", undefined);
+                         pronom_courant + " " + infinitif_courant + "?", undefined);
     if ((reponse != undefined) && (reponse != "")) {
       if (reponse == verbe_courant) {
         alert("Right! +");
