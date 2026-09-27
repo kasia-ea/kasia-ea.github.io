@@ -68,6 +68,7 @@ function testDeVerbes() {
     let reponse = prompt("Enter the form corresponding to the pronounce and given infinitive \n" +
                          "Type nothing to end the test \n\n" +
                          pronom_courant + " " + infinitif_courant + "?", undefined);
+    reponse = replaceApostrophes(reponse);
     if ((reponse != undefined) && (reponse != "")) {
       if (reponse == verbe_courant) {
         alert("Right! +");
@@ -103,6 +104,12 @@ function testDeNombresCardinaux() {
   }
 }
 
+function replaceApostrophes(line) {
+  let ret_line = "";
+  ret_line = line.replaceAll(/’/g, "'");
+  return ret_line;
+}  
+  
 </script>
 
 </body>
